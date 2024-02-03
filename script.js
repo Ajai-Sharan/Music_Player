@@ -23,7 +23,7 @@ loadSong(songs[songIndex]);
 function loadSong(song) {
   title.innerText = song;
   if(song === 'Khairiyat'){
-    cover.src='image/khairiyat.jpeg';
+    cover.src=`image/${song}.jpeg`;
   }
   else{
     cover.src = `image/${song}.jpg`;
